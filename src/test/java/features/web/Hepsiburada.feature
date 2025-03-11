@@ -1,4 +1,4 @@
-Feature: DIAS - Hepsiburada
+Feature: Hepsiburada
 
   @Web-UI @SCN-Hepsiburada-01
   Scenario: Chrome - Add the most expensive 13.2 inch Apple Tablet product to the basket and verify the price

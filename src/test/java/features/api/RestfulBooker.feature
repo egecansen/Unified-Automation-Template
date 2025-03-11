@@ -1,4 +1,4 @@
-Feature: Dias
+Feature: RestfulBooker
 
   @API-Test @SCN-RestfulBooker-01
   Scenario: Restful Booker - Ping
