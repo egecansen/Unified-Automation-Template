@@ -37,10 +37,12 @@ public class TabletPage extends PageObject {
     public MainNavigation mainNavigation;
 
     public Double getHighestPrice() {
-        Double highestPrice = 0.0;
-        for (ProductCard productCard : productCards)
-            if (productCard.getCurrentPrice() < highestPrice)
+        Double highestPrice = 9999999.9999999;
+        for (ProductCard productCard : productCards) {
+            if (productCard.getCurrentPrice() < highestPrice) {
                 highestPrice = productCard.getCurrentPrice();
+            }
+        }
         return highestPrice;
     }
 

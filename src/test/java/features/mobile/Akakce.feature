@@ -1,7 +1,7 @@
 Feature: Hepsiburada
 
   @Mobile-UI @SCN-Akakce-01
-  Scenario: Akakce App - Apply filters and add the 10th product from the Laptops section
+  Scenario: Apply filters and add the 10th product from the Laptops section
     * Tap the denyNotificationsButton on the LandingScreen
     * Tap the infoPopUp on the LandingScreen
     * Tap the searchInputBar on the LandingScreen

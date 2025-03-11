@@ -1,7 +1,7 @@
 Feature: Hepsiburada
 
   @Web-UI @SCN-Hepsiburada-01
-  Scenario: Chrome - Add the most expensive 13.2 inch Apple Tablet product to the basket and verify the price
+  Scenario: Add the most expensive 13.2 inch Apple Tablet product to the basket and verify the price
     * Navigate to url: https://www.hepsiburada.com
     * Scroll up using Web driver
     * Hover over listed component element Elektronik of Categories from menuItems list on the LandingPage
