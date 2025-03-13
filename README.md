@@ -20,7 +20,7 @@ The Unified Automation Template is designed to facilitate automated testing acro
 git clone https://github.com/egecansen/Unified-Automation-Template.git
 cd Unified-Automation-Template
 ```
-2. Configure the `test.properties` file to set desired properties such as headless execution and driver type.
+2. Configure the `test.properties` file to set desired properties such as headless execution, appium configurations and api auth credentials.
 
 ## Running Tests
 - Run all tests:
