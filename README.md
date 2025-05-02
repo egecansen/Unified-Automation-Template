@@ -3,6 +3,8 @@
 ## Overview
 The Unified Automation Template is designed to facilitate automated testing across Web UI, Mobile UI, and API platforms. It supports scenario tagging for selective test execution, making the process flexible and manageable.
 
+The CommonSteps class stores the generic UI steps and saves us from the repeated code. The ObjectRepository class is used for storing the page object instances; the page objects are automatically instantiated when the element of that page is interacted with. The PageObject class is for overwriting Selenium's default field decorator to be able to use WebComponents.
+
 ## Features
 - **Multi-Platform Testing:** Supports Web UI, Mobile UI, and API automation.
 - **Scenario Tagging:** Enables running specific test scenarios using tags.
